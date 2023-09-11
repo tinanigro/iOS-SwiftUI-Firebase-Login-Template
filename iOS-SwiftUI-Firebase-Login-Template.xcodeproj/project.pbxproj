@@ -27,8 +27,9 @@
 		14F252E9299BF13500DAC3B8 /* Setup_Dependencies.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F252E8299BF13500DAC3B8 /* Setup_Dependencies.png */; };
 		14F252EB299BF21700DAC3B8 /* Setup_Capabilities.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F252EA299BF21700DAC3B8 /* Setup_Capabilities.png */; };
 		14F252ED299C0E4F00DAC3B8 /* AppleDeveloperSetup.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F252EC299C0E4F00DAC3B8 /* AppleDeveloperSetup.png */; };
-		14F252EF299C0FA800DAC3B8 /* infoPList.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F252EE299C0FA800DAC3B8 /* infoPList.png */; };
 		14F252F1299C133600DAC3B8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 14F252F0299C133600DAC3B8 /* .gitignore */; };
+		E1EDF8462AAF3A1D004DC4C8 /* ContentView_NoFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EDF8452AAF3A1D004DC4C8 /* ContentView_NoFirebase.swift */; };
+		E1F8E8532AAF239200BC57B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1F8E8522AAF239200BC57B7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,8 +53,9 @@
 		14F252E8299BF13500DAC3B8 /* Setup_Dependencies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setup_Dependencies.png; sourceTree = "<group>"; };
 		14F252EA299BF21700DAC3B8 /* Setup_Capabilities.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setup_Capabilities.png; sourceTree = "<group>"; };
 		14F252EC299C0E4F00DAC3B8 /* AppleDeveloperSetup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppleDeveloperSetup.png; sourceTree = "<group>"; };
-		14F252EE299C0FA800DAC3B8 /* infoPList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoPList.png; sourceTree = "<group>"; };
 		14F252F0299C133600DAC3B8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E1EDF8452AAF3A1D004DC4C8 /* ContentView_NoFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_NoFirebase.swift; sourceTree = "<group>"; };
+		E1F8E8522AAF239200BC57B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,7 @@
 				14F252E8299BF13500DAC3B8 /* Setup_Dependencies.png */,
 				14F252EA299BF21700DAC3B8 /* Setup_Capabilities.png */,
 				14F252EC299C0E4F00DAC3B8 /* AppleDeveloperSetup.png */,
-				14F252EE299C0FA800DAC3B8 /* infoPList.png */,
+				E1F8E8522AAF239200BC57B7 /* GoogleService-Info.plist */,
 				1410E3B72997811B005E4FBF /* iOS-SwiftUI-Firebase-Login-Template */,
 				1410E3B62997811B005E4FBF /* Products */,
 			);
@@ -102,6 +104,7 @@
 				1410E3E9299788EB005E4FBF /* Utils */,
 				1410E3B82997811B005E4FBF /* iOS_SwiftUI_Firebase_Login_TemplateApp.swift */,
 				1410E3BA2997811B005E4FBF /* ContentView.swift */,
+				E1EDF8452AAF3A1D004DC4C8 /* ContentView_NoFirebase.swift */,
 				142FD6832997F94F00F42E77 /* Assets.xcassets */,
 				1410E3BE2997811D005E4FBF /* iOS_SwiftUI_Firebase_Login_Template.entitlements */,
 				1410E3BF2997811D005E4FBF /* Preview Content */,
@@ -237,11 +240,11 @@
 			files = (
 				14F252F1299C133600DAC3B8 /* .gitignore in Resources */,
 				14F252EB299BF21700DAC3B8 /* Setup_Capabilities.png in Resources */,
-				14F252EF299C0FA800DAC3B8 /* infoPList.png in Resources */,
 				14F252E5299BEECD00DAC3B8 /* firebase.png in Resources */,
 				1410E3C12997811D005E4FBF /* Preview Assets.xcassets in Resources */,
 				14F252ED299C0E4F00DAC3B8 /* AppleDeveloperSetup.png in Resources */,
 				14F252E9299BF13500DAC3B8 /* Setup_Dependencies.png in Resources */,
+				E1F8E8532AAF239200BC57B7 /* GoogleService-Info.plist in Resources */,
 				14F252E7299BF0A000DAC3B8 /* Setup_SignInMethods.png in Resources */,
 				142FD6842997F94F00F42E77 /* Assets.xcassets in Resources */,
 			);
@@ -256,6 +259,7 @@
 			files = (
 				14F252E3299AD71B00DAC3B8 /* LoginButton.swift in Sources */,
 				1410E3F129978F97005E4FBF /* SocialLogins.swift in Sources */,
+				E1EDF8462AAF3A1D004DC4C8 /* ContentView_NoFirebase.swift in Sources */,
 				1410E3CD299781C7005E4FBF /* AuthenticationViewModel.swift in Sources */,
 				1410E3EB299788F7005E4FBF /* Extensions.swift in Sources */,
 				1410E3BB2997811B005E4FBF /* ContentView.swift in Sources */,
@@ -386,13 +390,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "iOS-SwiftUI-Firebase-Login-Template/iOS_SwiftUI_Firebase_Login_Template.entitlements";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS-SwiftUI-Firebase-Login-Template/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = B9WT723MN2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = Soberly;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -403,11 +409,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spatialcompany.soberly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -416,7 +423,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -426,13 +433,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "iOS-SwiftUI-Firebase-Login-Template/iOS_SwiftUI_Firebase_Login_Template.entitlements";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS-SwiftUI-Firebase-Login-Template/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = B9WT723MN2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = Soberly;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -443,11 +452,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spatialcompany.soberly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -456,7 +466,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -18,7 +18,7 @@ struct iOS_SwiftUI_Firebase_Login_TemplateApp: App {
         
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView_NoFirebase()
                 .environmentObject(authViewModel)
         }
     }
